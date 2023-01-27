@@ -17,6 +17,3 @@ If you want to create a single Issuer that can be consumed in multiple namespace
 cert-manager has the concept of Certificates that define a desired X.509 certificate which will be renewed and kept up to date. A Certificate is a namespaced resource that references an Issuer or ClusterIssuer that determine what will be honoring the certificate request.
 
 When a Certificate is created, a corresponding CertificateRequest resource is created by cert-manager containing the encoded X.509 certificate request, Issuer reference, and other options based upon the specification of the Certificate resource.
-
-
-[Cert Manager - Securing NGINX-ingress](https://cert-manager.io/docs/tutorials/acme/nginx-ingress/)
