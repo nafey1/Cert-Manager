@@ -4,7 +4,7 @@
 The gateway must be created in the istio-system namespace, where the Ingress Load Balancer is created. The Virtual Service and Destination Rules can reside in the application namespace.
 
 
-  ❯ kubectl apply -f configurations/istio-gw-vs.yaml
+    ❯ kubectl apply -f configurations/istio-gw-vs.yaml
 
 ## Modify the Virtual Service
 Notice the Virtual Service resides in the application namespace but references the gateway in the istio-system namespace.

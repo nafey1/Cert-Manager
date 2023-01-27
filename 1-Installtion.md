@@ -41,8 +41,8 @@
 
 ## Verifying the Installation
 
-❯ cmctl check api
-The cert-manager API is ready
+    ❯ cmctl check api
+    The cert-manager API is ready
 
 
 ## Manual Verification
@@ -114,6 +114,6 @@ The cert-manager API is ready
     Normal  Issuing    44s   cert-manager-certificates-issuing          The certificate has been successfully issued
 
 
-    Cleanup
+Cleanup
 
     kubectl delete -f test-resources.yaml
