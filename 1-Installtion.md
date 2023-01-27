@@ -52,7 +52,7 @@ The cert-manager API is ready
 
 ### Create an Issuer to test the webhook works okay.
 
-```yaml
+```shell
 cat <<EOF > test-resources.yaml
 apiVersion: v1
 kind: Namespace
