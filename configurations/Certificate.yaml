@@ -4,12 +4,12 @@ metadata:
   name: bookinfo-tls
   namespace: istio-system
 spec:
-  secretName: bookinfo-nafey-online-tls
+  secretName: bookinfo-nafey-world-tls
   duration: 2160h # 90d
   renewBefore: 360h # 15d
   subject:
     organizations:
-      - nafey.online
+      - nafey.world
   isCA: false
   privateKey:
     algorithm: RSA
@@ -20,7 +20,7 @@ spec:
     - client auth
   # At least one of a DNS Name, URI, or IP address is required.
   dnsNames:
-    - bookinfo.nafey.online
+    - bookinfo.nafey.world
   issuerRef:
     name: letsencrypt
     # We can reference ClusterIssuers by changing the kind here.
