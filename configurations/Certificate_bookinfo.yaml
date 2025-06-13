@@ -2,7 +2,7 @@ apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
   name: bookinfo-tls
-  namespace: istio-system
+  namespace: bookinfo
 spec:
   secretName: bookinfo-nafey-online-tls
   duration: 2160h # 90d

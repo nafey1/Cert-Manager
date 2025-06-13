@@ -25,3 +25,4 @@ spec:
         mode: SIMPLE
   selector:
     istio: ingressgateway
+
